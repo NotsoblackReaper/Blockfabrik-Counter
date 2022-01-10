@@ -1,0 +1,26 @@
+{
+  "name": "Blockfabrik Counter",
+  "version": "0.1.0",
+  "description": "My Chrome Extension",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "imgs/blockfabrik_icon.png",
+      "32": "imgs/blockfabrik_icon.png",
+      "64": "imgs/blockfabrik_icon_large.png",
+      "128": "imgs/blockfabrik_icon_large.png"
+    }
+  },
+  "icons": {
+    "16": "imgs/blockfabrik_icon.png",
+    "32": "imgs/blockfabrik_icon.png",
+    "64": "imgs/blockfabrik_icon_large.png",
+    "128": "imgs/blockfabrik_icon_large.png"
+  },
+  "manifest_version": 2
+}
